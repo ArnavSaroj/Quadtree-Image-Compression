@@ -6,6 +6,7 @@ A C++ tool that uses a Quadtree structure to compress images by recursively subd
 <div align="center">
   <img src="./assets/gif/parrot.gif" width="500" />
 </div>
+
 ![Mountain Compression](./assets/gif/mountains.gif)
 
 *Transitioning from high threshold (blocky) to low threshold (detailed).*
