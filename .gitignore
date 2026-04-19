@@ -1,0 +1,9 @@
+*.exe
+*.o
+frame_*.jpg
+compressed_*.jpg
+.vscode/
+bin/
+raw/
+processed/
+
