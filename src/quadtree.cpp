@@ -76,10 +76,10 @@ Node *buildingTree(int x, int y, int width, int height, float threshold, unsigne
 
 
  
-    int leftW = width / 2;
+    int leftW = width >> 2;
     int rightW = width - leftW;
 
-    int topH = height / 2;
+    int topH = height >>2;
     int botH = height - topH;
 
     newNode->topRight = buildingTree(x + leftW, y, rightW, topH, threshold, img, img_width);
