@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-    const char *inPath = "assets/raw/something.jpg";
+    const char *inPath = "assets/raw/image4.jpg";
 
     std::error_code ec;
     uintmax_t beforeBytes = std::filesystem::file_size(inPath, ec);
